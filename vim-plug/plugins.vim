@@ -36,6 +36,7 @@ Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'francoiscabrol/ranger.vim'
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 Plug 'justinmk/vim-sneak'
 
