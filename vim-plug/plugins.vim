@@ -46,4 +46,9 @@ Plug 'mhinz/vim-startify'
 
 Plug 'voldikss/vim-floaterm'
 
+" Similate split shell for tmux / R€ý,€ý,
+Plug 'ervandew/screen'
+
+Plug 'arcticicestudio/nord-vim'
+
 call plug#end()
