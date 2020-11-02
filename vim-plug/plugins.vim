@@ -39,5 +39,8 @@ Plug 'francoiscabrol/ranger.vim'
 
 Plug 'justinmk/vim-sneak'
 
+Plug 'liuchengxu/vim-which-key'
+
+Plug 'mhinz/vim-startify'
 
 call plug#end()
