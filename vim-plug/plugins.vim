@@ -31,4 +31,9 @@ Plug 'joshdick/onedark.vim'
 " Make sure to install node.js
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'francoiscabrol/ranger.vim'
+
+Plug 'justinmk/vim-sneak'
+
+
 call plug#end()
