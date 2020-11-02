@@ -8,3 +8,4 @@ source $HOME/AppData/Local/nvim/plug-config/sneak.vim
 source $HOME/AppData/Local/nvim/plug-config/ranger.vim
 source $HOME/AppData/Local/nvim/keys/which-key.vim
 source $HOME/AppData/Local/nvim/plug-config/rnvimr.vim
+source $HOME/AppData/Local/nvim/plug-config/floaterm.vim
