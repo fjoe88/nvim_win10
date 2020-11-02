@@ -44,4 +44,4 @@ nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
 " Easy toggle NerdTree
-nmap <F6> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>

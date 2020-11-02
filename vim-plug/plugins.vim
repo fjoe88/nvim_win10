@@ -27,6 +27,10 @@ Plug 'jiangmiao/auto-pairs'
 
 Plug 'joshdick/onedark.vim'
 
+Plug 'tpope/vim-surround'
+" Commenting
+Plug 'tpope/vim-commentary'
+
 " Stable version of coc
 " Make sure to install node.js
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
