@@ -46,7 +46,7 @@ nnoremap <Leader>O O<Esc>^Da
 " Easy toggle NerdTree
 nmap <C-n> :NERDTreeToggle<CR>
 
-let s:fontsize = 18
+let s:fontsize = 12	
 function! AdjustFontSize(amount)
   let s:fontsize = s:fontsize+a:amount
   :execute "GuiFont! Consolas:h" . s:fontsize
