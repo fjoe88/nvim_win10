@@ -51,4 +51,5 @@ Plug 'ervandew/screen'
 
 Plug 'arcticicestudio/nord-vim'
 
+Plug 'unblevable/quick-scope'
 call plug#end()
