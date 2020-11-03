@@ -35,9 +35,6 @@ Plug 'tpope/vim-commentary'
 " Make sure to install node.js
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'francoiscabrol/ranger.vim'
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-
 Plug 'justinmk/vim-sneak'
 
 Plug 'liuchengxu/vim-which-key'
