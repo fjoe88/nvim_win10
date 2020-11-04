@@ -124,5 +124,17 @@ let g:which_key_map.b = {
       \ '?' : ['Buffers'   , 'fzf-buffer']      ,
       \ }
 
+" Git
+
+let g:which_key_map.g = {'name' : '+git'}
+
+nnoremap <silent> <leader>gg :Git<CR>
+nnoremap <silent> <leader>gp :Gpush<CR>
+nnoremap <silent> <leader>gl :Gpull<CR>
+nnoremap <silent> <leader>gc :Gcommit<CR>
+nnoremap <silent> <leader>gd :Gvdiffsplit<CR>
+
+
+"
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
