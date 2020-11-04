@@ -25,13 +25,14 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 " Single mappings
 let g:which_key_map['/'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
-let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
-let g:which_key_map['f'] = [ ':Files'                     , 'find' ]
+let g:which_key_map['e'] = [ ':NERDTree %'                , 'explorer' ]
+let g:which_key_map['f'] = [ ':files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
-let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
-let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
+let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
+let g:which_key_map['r'] = [ ':reg'                       , 'registers' ]
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
+let g:which_key_map['G'] = [ ':Git'                       , 'Git' ]
 
 " s is for search
 let g:which_key_map.s = {
