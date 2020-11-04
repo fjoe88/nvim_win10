@@ -78,3 +78,6 @@ nnoremap gk k
 " VIM by default split vertically to the left and top
 set splitbelow
 set splitright
+
+" Q for Ex mode isnt useful and prone to hit accidentally
+nnoremap Q <nop>
