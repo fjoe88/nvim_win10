@@ -14,6 +14,7 @@ Plug 'iCyMind/NeoSolarized'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'junegunn/seoul256.vim'
 
 Plug 'vim-airline/vim-airline'
 
