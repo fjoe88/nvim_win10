@@ -83,5 +83,46 @@ let g:which_key_map['w'] = {
       \ 'v' : ['<C-W>v'     , 'split-window-below']    ,
       \ '?' : ['Windows'    , 'fzf-window']            ,
       \ }
+
+let g:which_key_map.f = { 'name' : '+file' }
+
+nnoremap <silent> <leader>fs :update<CR>
+let g:which_key_map.f.s = 'save-file'
+
+nnoremap <silent> <leader>fd :e $MYVIMRC<CR>
+let g:which_key_map.f.d = 'open-vimrc'
+
+nnoremap <silent> <leader>oq  :copen<CR>
+nnoremap <silent> <leader>ol  :lopen<CR>
+let g:which_key_map.o = {
+      \ 'name' : '+open',
+      \ 'q' : 'open-quickfix'    ,
+      \ 'l' : 'open-locationlist',
+      \ }
+
+" =======================================================
+" Create menus not based on existing mappings:
+" =======================================================
+" Provide commands(ex-command, <Plug>/<C-W>/<C-d> mapping, etc.)
+" and descriptions for the existing mappings.
+"
+" Note:
+" Some complicated ex-cmd may not work as expected since they'll be
+" feed into `feedkeys()`, in which case you have to define a decicated
+" Command or function wrapper to make it work with vim-which-key.
+" Ref issue #126, #133 etc.
+let g:which_key_map.b = {
+      \ 'name' : '+buffer' ,
+      \ '1' : ['b1'        , 'buffer 1']        ,
+      \ '2' : ['b2'        , 'buffer 2']        ,
+      \ 'd' : ['bd'        , 'delete-buffer']   ,
+      \ 'f' : ['bfirst'    , 'first-buffer']    ,
+      \ 'h' : ['Startify'  , 'home-buffer']     ,
+      \ 'l' : ['blast'     , 'last-buffer']     ,
+      \ 'n' : ['bnext'     , 'next-buffer']     ,
+      \ 'p' : ['bprevious' , 'previous-buffer'] ,
+      \ '?' : ['Buffers'   , 'fzf-buffer']      ,
+      \ }
+
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
