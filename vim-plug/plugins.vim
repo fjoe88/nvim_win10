@@ -49,4 +49,6 @@ Plug 'ervandew/screen'
 Plug 'arcticicestudio/nord-vim'
 
 Plug 'unblevable/quick-scope'
+
+Plug 'tpope/vim-fugitive'
 call plug#end()

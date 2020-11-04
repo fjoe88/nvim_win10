@@ -17,6 +17,10 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
+" Shift + k/j to move block of text
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit
@@ -52,3 +56,7 @@ noremap <C-ScrollWheelDown> :call AdjustFontSize(-1)<CR>
 inoremap <C-ScrollWheelUp> <Esc>:call AdjustFontSize(1)<CR>a
 inoremap <C-ScrollWheelDown> <Esc>:call AdjustFontSize(-1)<CR>a
 
+" git merge conflicts
+nmap <leader>gs :G<CR>
+nmap <leader>gj :diffget //3<CR>
+nmap <leader>gf :diffget //2<CR>
