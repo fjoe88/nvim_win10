@@ -8,13 +8,15 @@ endif
 
 call plug#begin('~/AppData/Local/nvim/plugged')
 
+" Themes
 Plug 'joshdick/onedark.vim'
-
 Plug 'iCyMind/NeoSolarized'
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'NLKNguyen/papercolor-theme'
 
 Plug 'vim-airline/vim-airline'
 
-Plug 'vim-airline/vim-airline-themes'
 
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
@@ -25,7 +27,6 @@ Plug 'scrooloose/NERDTree'
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 
-Plug 'joshdick/onedark.vim'
 
 Plug 'tpope/vim-surround'
 " Commenting
