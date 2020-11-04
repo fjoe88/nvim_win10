@@ -5,7 +5,7 @@ inoremap <expr> <c-k> ("\<C-p>")
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>
 nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
+nnoremap <M-h>    :vertical resize -1<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
 " Easy CAPS
@@ -60,3 +60,21 @@ inoremap <C-ScrollWheelDown> <Esc>:call AdjustFontSize(-1)<CR>a
 nmap <leader>gs :G<CR>
 nmap <leader>gj :diffget //3<CR>
 nmap <leader>gf :diffget //2<CR>
+
+nnoremap n nzz
+nnoremap } }zz
+
+" swap gj/gk with j/k to work with wrap to allow single visual line movements
+
+nnoremap j gj
+nnoremap k gk
+
+nnoremap gj j
+nnoremap gk k
+
+" By default vim does not allow backspacing beyond where INSERT starts
+" set backspace=indent,eol,start
+
+" VIM by default split vertically to the left and top
+set splitbelow
+set splitright
